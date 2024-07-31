@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import choose_bg from "../../assets/images/choose/choose-3.png"
+import choose_bg from "../../assets/images/Black and White Simple Photography HTML For Beginners YouTube Thumbnail 1.png"
 import choose_text_logo from "../../assets/images/choose/choose-logo-text.png"
 import choose_text_icon from "../../assets/images/choose/choose-logo-icon.jpg"
 import top_shap from "../../assets/images/choose/choose-top-shape.png"

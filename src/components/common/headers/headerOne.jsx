@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import white_logo from "../../../assets/images/white-logo.png"
+import white_logo from "../../../assets/images/logo.png"
 import { Link } from 'react-router-dom'
 import useStickyHeader from '../../../hooks/useStickyHeader'
 import { menuList } from '../../../utlits/fackData/menuList'
@@ -12,13 +12,13 @@ const HeaderOne = ({ }) => {
 
     return (
         <>
-            <div className="navbar-area style-2">
+            <div className="navbar-area style-1">
                 <MobileMenu menuActive={menuActive} setMenuActive={setMenuActive} />
                 <div className="desktop-nav style-2">
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link className="navbar-brand me-0" to="/">
-                                <img src={white_logo} width={200} className="black-logo" alt="logo" />
+                                <img src={white_logo} width={150} className="black-logo" alt="logo" />
                             </Link>
 
                             <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -55,12 +55,12 @@ const HeaderOne = ({ }) => {
                                 <div className="others-options">
                                     <ul>
                                         <li>
-                                            <Link className="default-btn text-decoration-none" to="app.talentifylab.com">
+                                            <Link className="default-btn text-decoration-none" to="https://app.talentifylab.com/">
                                                 <i className="ri-arrow-right-line"></i>
                                                 Login
                                             </Link>
 
-                                            <Link className="quote d-none text-decoration-none" to="app.talentifylab.com">
+                                            <Link className="quote d-none text-decoration-none" to="https://app.talentifylab.com/">
                                                 <i className="ri-chat-quote-line"></i>
                                             </Link>
                                         </li>

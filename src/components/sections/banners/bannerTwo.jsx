@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion"
 import banner_wapper_shap from "../../../assets/images/hero/banner-wrapper-shape.png"
-import banner_wapper_image from "../../../assets/images/hero/banner-wrapper-1.png"
+import banner_wapper_image from "../../../assets/images/34 9.png"
 import banner_wapper_image_shap from "../../../assets/images/hero/banner-wrapper-image-shape.png"
 import { slideUp } from '../../../utlits/slideUp'
 import { Link } from 'react-router-dom'
@@ -32,14 +32,6 @@ const BannerTwo = () => {
                                     Request A Demo
                                     <div className="dote"></div>
                                 </Link>
-                                <div className="play-btn d-flex align-items-center">
-                                    <div onClick={() => setOpen(true)} className="text-decoration-none popup-youtube icon">
-                                        <i className="ri-play-mini-fill"></i>
-                                    </div>
-                                    <div onClick={() => setOpen(true)} className="text-decoration-none popup-youtube text-white ">
-                                        Watch Intro Video
-                                    </div>
-                                </div>
                             </div>
                         </motion.div>
                     </div>

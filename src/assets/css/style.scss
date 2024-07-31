@@ -912,12 +912,12 @@ Navbar Area Style
             .navbar-nav {
                 .nav-item {
                     a {
-                        color: var(--whiteColor);
+                        color: var(--blackColor);
                         transition: var(--transition);
 
                         &.dropdown-toggle {
                             &::before {
-                                color: var(--whiteColor);
+                                color: var(--blackColor);
                                 transition: var(--transition);
                             }
                         }
