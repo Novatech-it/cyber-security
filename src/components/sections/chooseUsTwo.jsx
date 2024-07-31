@@ -58,12 +58,6 @@ const ChooseUsTwo = () => {
                     </div>
                 </motion.div>
             </div>
-            <div className="top-shape">
-                <img src={top_shap} alt="shape" />
-            </div>
-            <div className="bottom-shape">
-                <img src={bottom_shap} alt="shape" />
-            </div>
         </section>
     )
 }

@@ -18,7 +18,7 @@ const HeaderOne = ({ }) => {
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link className="navbar-brand me-0" to="/">
-                                <img src={white_logo} width={150} className="black-logo" alt="logo" />
+                                <img src={white_logo} width={130} className="black-logo" alt="logo" />
                             </Link>
 
                             <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
