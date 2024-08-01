@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
-import logo from "../../assets/images/white-logo.png"
+import logo from "../../assets/images/logo.png"
 import { slideUp } from '../../utlits/slideUp'
 const Footer = () => {
   const footerLink = [

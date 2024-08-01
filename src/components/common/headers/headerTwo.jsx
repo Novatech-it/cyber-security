@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../../..//assets/images/talentify-logo.svg"
+import logo from "../../..//assets/images/logo.png"
 import { Link } from 'react-router-dom'
 import useStickyHeader from '../../../hooks/useStickyHeader'
 import { menuList } from '../../../utlits/fackData/menuList'
