@@ -1,7 +1,7 @@
 export const servicesDataFour = [
     {
         id: '01',
-        service_name: "Security Management",
+        service_name: "Security Training",
         service_details: "The Imperative of Cybersecurity in an Interconnected World.",
         link: "/service-details"
     },

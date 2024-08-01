@@ -32,16 +32,16 @@ This files table contents are outlined below>>>>>
 ** - Team Area Style
 ** - Solutions Area Style
 ** - Page Title Area
-** - 
-** - 
-** - 
-** - 
-** - 
-** - 
-** - 
-** - 
-** - 
-** - 
+** -
+** -
+** -
+** -
+** -
+** -
+** -
+** -
+** -
+** -
 ** - Footer Area Style
 */
 /*================================================
@@ -432,6 +432,7 @@ Navbar Area Style
   padding-bottom: 0;
 }
 .desktop-nav .navbar {
+  height: 2em !important;
   transition: all ease 0.5s;
   z-index: 2;
   padding-right: 0;
