@@ -5,11 +5,11 @@ export const partnerDataOne  = [
     {
         id: 1,
         link: '/',
-        src: partner_img_1
+        src: partner_img_2
     },
     {
         id: 2,
         link: '/',
-        src: partner_img_2
+        src: partner_img_1
     },
 ]

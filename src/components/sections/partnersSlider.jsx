@@ -9,7 +9,7 @@ const PartnersSlider = ({data}) => {
         <div className="partner-slider-info" data-cue="slideInUp">
             <div className="partner-slider">
                 <Swiper
-                    spaceBetween={25}
+                    spaceBetween={5}
                     slidesPerView={5}
                     speed={1000}
                     autoplay={{
@@ -23,7 +23,7 @@ const PartnersSlider = ({data}) => {
                             return (
                                 <SwiperSlide key={id}>
                                     <div className="single-partner-logo">
-                                        <img src={src} alt={`partner-${id}`} style={{width:'10px !important'}}/>
+                                        <img src={src} alt={`partner-${id}`}/>
                                     </div>
                                 </SwiperSlide>
                             )
