@@ -12,22 +12,22 @@ const SecurityTwo = () => {
         {
             id: 1,
             icon: <Memory />,
-            security_name: "Security Management",
-            details: "These services collectively help organization establish a comprehensive cybersecurity framework and protect their digital.",
+            security_name: "Security Training",
+            details: "We empower individuals with essential cybersecurity knowledge through targeted training. Our programs teach best practices, threat awareness, and preventive measures to effectively protect digital assets and enhance overall security posture.",
             link: "/service-details"
         },
         {
             id: 2,
             icon: <Lock />,
             security_name: "Data Privacy",
-            details: "These services collectively help organization establish a comprehensive cybersecurity framework and protect their digital.",
+            details: "We help organizations establish robust data privacy practices, ensuring secure handling and protection of sensitive information. Our services include compliance guidance, data protection strategies, and privacy training to safeguard personal and corporate data.",
             link: "/service-details"
         },
         {
             id: 3,
             icon: <Security />,
             security_name: "Network Security",
-            details: "These services collectively help organization establish a comprehensive cybersecurity framework and protect their digital.",
+            details: "We enhance your network's defenses with advanced firewalls, intrusion detection, and encryption. Our services include threat assessment, continuous monitoring, and compliance audits to ensure your network is secure and resilient against cyber threats.",
             link: "/service-details"
         },
 

@@ -20,7 +20,7 @@ const App = () => {
 
             <div className="partner-area style-3 pt-100 pb-75">
                 <div className="container">
-                    <Title sectionName={"Partners Talentifylab"} sectionTitle={"Global Society Place Their Trust in Our Services"}/>
+                    <Title sectionTitle={"Our Partners"}/>
                     <PartnersSlider data={partnerDataOne} />
                 </div>
             </div>
