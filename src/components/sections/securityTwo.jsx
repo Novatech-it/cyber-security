@@ -13,7 +13,7 @@ const SecurityTwo = () => {
             id: 1,
             icon: <Memory />,
             security_name: "Security Training",
-            details: "We empower individuals with essential cybersecurity knowledge through targeted training. Our programs teach best practices, threat awareness, and preventive measures to effectively protect digital assets and enhance overall security posture.",
+            details: "These services collectively help teams or organizations establish a comprehensive cybersecurity framework and how someone can protect their digital.",
             link: "/service-details"
         },
         {

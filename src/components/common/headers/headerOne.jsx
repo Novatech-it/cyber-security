@@ -5,7 +5,7 @@ import useStickyHeader from '../../../hooks/useStickyHeader'
 import { menuList } from '../../../utlits/fackData/menuList'
 import MobileMenu from './mobileMenu'
 
-const HeaderOne = ({ }) => {
+const HeaderOne = () => {
     useStickyHeader()
     const [othersOption, setOtherOption] = useState(false)
     const [menuActive, setMenuActive] = useState(false)

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { menuList } from '../../../utlits/fackData/menuList'
-import white_logo from "../../../assets/images/white-logo.png"
+import white_logo from "../../../assets/images/logo.png"
 
 const MobileMenu = ({menuActive, setMenuActive}) => {
     const [dropdownActive, setDropDownActive] = useState(null)
