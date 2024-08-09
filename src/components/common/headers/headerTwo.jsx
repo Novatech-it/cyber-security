@@ -73,37 +73,9 @@ const HeaderTwo = () => {
 
       <div className="others-option-for-responsive">
         <div className="container">
-
-          <div className="dot-menu" onClick={() => setOtherOption(!othersOption)}>
-            <div className="inner">
-              <div className="circle circle-one"></div>
-              <div className="circle circle-two"></div>
-              <div className="circle circle-three"></div>
-            </div>
-          </div>
           <div className='menu-icon'>
             <i className={`ri-menu-line ${menuActive ? "d-none" : "d-block "}`} onClick={() => setMenuActive(true)}></i>
             <i className={`ri-close-line  ${menuActive ? "d-block " : "d-none"}`} onClick={() => setMenuActive(false)}></i>
-          </div>
-
-
-          <div className={`container ${othersOption ? "active" : ""} `}>
-            <div className="option-inner">
-              <div className="others-options justify-content-center d-flex align-items-center">
-                <ul>
-                  <li>
-                    <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      <i className="ri-search-2-line"></i>
-                    </button>
-                  </li>
-                  <li>
-                    <Link className="quote text-decoration-none" to="/contact">
-                      <i className="ri-chat-quote-line"></i>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>

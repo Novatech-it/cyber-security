@@ -11,7 +11,7 @@ const MobileMenu = ({menuActive, setMenuActive}) => {
                 <div className="mobile-responsive-menu">
                     <div className="logo">
                         <Link to="/">
-                            <img src={white_logo} className="main-logo" alt="logo" />
+                            <img src={white_logo} width={120} height={120} alt="logo" />
                         </Link>
                     </div>
                     <div className={`bg-white overflow-hidden mobile-responsive-inner shadow ${menuActive ? "mobile-responsive-active" : ""} `}>
